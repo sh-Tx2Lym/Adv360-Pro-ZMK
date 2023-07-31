@@ -33,9 +33,9 @@
         bindings = <&kp>, <&kp>;
     };
 
-    sands: space_and_shift {
+    rh: repeat_and_hold {
         compatible = "zmk,behavior-hold-tap";
-        label = "SPACE_AND_SHIFT";
+        label = "REPEAT_AND_HOLD";
         #binding-cells = <2>;
         flavor = "tap-unless-interrupted";
         tapping-term-ms = <200>;
